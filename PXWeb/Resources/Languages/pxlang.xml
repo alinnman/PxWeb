@@ -432,8 +432,8 @@
 	 <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Space delimited without heading" />
 	 <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semicolon delimited with heading" />
 	 <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semicolon delimited without heading" />
-	 <sentence name="FileTypeCsv2" value="Csv2" />
-	 <sentence name="FileTypeCsv3" value="Csv3" />
+	 <sentence name="FileTypeCsv2" value="Comma delimited without heading (code and text for values)" />
+	 <sentence name="FileTypeCsv3" value="Comma delimited without heading (code for values)" />
 	
 	<sentence name="FileTypeText" value="Text file (txt)" />  
   <sentence name="FileTypeHtml5Table" value="Html5 table (htm)" />
@@ -692,8 +692,8 @@
 	 <sentence name="CancelButton" value="Cancel"/>
 
 	 <!-- PxWeb -->
-	 <sentence name="PxWebApplicationTitle" value="PxWeb 2023 v1"/>
-	 <sentence name="PxWebApplicationName" value="PxWeb 2023 v1"/>
+	 <sentence name="PxWebApplicationTitle" value="PxWeb 2025 v1"/>
+	 <sentence name="PxWebApplicationName" value="PxWeb 2025 v1"/>
    <sentence name="PxWebLogoAlt" value="PxWeb Logotype"/>
    <sentence name="PxWebExternalSearchText" value="Search"/>
    <sentence name="PxWebExternalSearchURL" value="https://www.google.com"/>
@@ -834,7 +834,7 @@
 
 	 <sentence name="PxWebAdminLogout" value="Log out"/>
 	 <sentence name="PxWebAdminHeading" value="PxWeb Administration"/>
-	 <sentence name="PxWebAdminVersion" value="PxWeb 2023 v1"/>
+	 <sentence name="PxWebAdminVersion" value="PxWeb 2025 v1"/>
 	 <sentence name="PxWebAdminHomePage" value="PxWeb Homepage"/>
 	 <sentence name="PxWebAdminSaveButton" value="Save"/>
 	 <sentence name="PxWebAdminGenerateButton" value="Generate"/>
@@ -1225,6 +1225,7 @@
   <sentence name="PxWebAdminFeaturesGeneralFeatureUserStatistics" value="User statistics" />
   <sentence name="PxWebAdminFeaturesGeneralFeatureSearch" value="Search" />
   <sentence name="PxWebAdminFeaturesGeneralFeatureBackgroundWorker" value="Background worker process" />
+	<sentence name="PxWebAdminFeaturesGeneralFeatureBulkLink" value="Show link to download table" />
   <sentence name="PxWebAdminFeaturesGeneralClearCache" value="Clear cache" />
   <sentence name="PxWebAdminFeaturesGeneralClearCacheInfo" value="If specified the cache will be cleared at the specified time(s). Separate times with comma. Example: 09:30,12:00,13:49" />
 
@@ -1446,5 +1447,12 @@
   <sentence name="PxWebAdminUsersErrorMail" value="Invalid e-mail"/>
   <sentence name="PxWebAdminUsersLogin" value="Login"/>
   <sentence name="PxWebAdminUsersAddedUser" value="has been added as a user"/>
-  
+  <sentence name="PxWebBulkInformation" value="&lt;p&gt;The tables available for download contain the entire dataset and all reference periods published as statistics. The files are available in CSV format and due to the size of the files, they are packaged in ZIP format.&lt;/p&gt;" />
+  <sentence name="PxWebBulkTitleOnTab" value="Bulk files" />
+  <sentence name="PxWebBulkTableTitle" value="Tables for download" />
+  <sentence name="PxWebBulkTableColumnText" value="Presentation text" />
+  <sentence name="PxWebBulkTableColumnTableId" value="TableId" />
+  <sentence name="PxWebBulkTableColumnFileName" value="Filename" />
+  <sentence name="PxWebBulkTableColumCreatedTime" value="Created" />
+  <sentence name="PxWebBulkLink" value="Download the entire table as csv file" />
 </language>
